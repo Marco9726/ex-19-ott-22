@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid red;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.debug {
+  border: 1px solid red;
+}
+
+header {
+  padding: 10px;
+}
+
+.nav-container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.nav-section {
+  display: inline-block;
+}
+
+.logo {
+  width: 100px;
+  vertical-align: middle;
+  margin-right: 45px;
+}
+
+ul {
+  display: inline-block;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 25px;
+  padding: 10px;
+}
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(94, 93, 93);
+}
+
+.nav-section-right {
+  /* TODO: spostami a destra ;) */
+}
