@@ -2,12 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
   font-family: 'Lexend Deca', sans-serif;
-}
-
-.debug {
-  border: 1px solid red;
+  
 }
 
 header {
@@ -39,15 +35,55 @@ ul li {
   padding: 10px;
 }
 
+ul li:nth-of-type(odd)::after{
+  content: '\2228';
+  
+}
+
 ul li:last-child {
   margin-right: 0;
 }
 
-a{
-  text-decoration: none;
+ul li a{
   color: rgb(94, 93, 93);
 }
 
+a{
+  text-decoration: none;
+}
+
 .nav-section-right {
-  /* TODO: spostami a destra ;) */
+ float: right;
+}
+
+.nav-section-right a{
+  display: inline-block;
+  line-height: 40px;
+  width: 100%;
+}
+
+button{
+  border-radius: 5px;
+  margin-left: 15px;
+  display: inline-block;
+  height: 40px;
+  width: 160px;
+}
+
+#orange{
+  background-color: rgb(255,91,52);
+  border: none;
+}
+
+#white{
+  background-color: white;
+  border: 1px solid rgb(255,91,52);
+}
+
+#orange > a{
+  color: white;
+}
+
+#white > a{
+  color: rgb(255,91,52);
 }
